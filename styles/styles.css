@@ -536,7 +536,6 @@ fill: var(--blue-color);
 }
 
 .contacts {
-    display: inline-block;
     font-style: normal;
 }
 
@@ -569,6 +568,7 @@ fill: var(--blue-color);
 }
 
 .footer-soc-link {
+    display: inline-block;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -582,7 +582,7 @@ fill: var(--blue-color);
 }
 
 .footer-soc-header {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     font-weight: 700;
     font-size: 14px;
@@ -612,6 +612,14 @@ fill: var(--blue-color);
 .contacts-list {
     display: inline-block;
     
+}
+
+.container-contacts {
+    display: flex;
+}
+
+.container-footer-soc-header {
+    margin-left: 70px;
 }
 
 /* Portfolio */
